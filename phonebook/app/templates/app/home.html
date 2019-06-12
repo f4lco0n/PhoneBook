@@ -1,0 +1,41 @@
+{% extends "app/base.html" %}
+{% block content %}
+<form method="GET" action="">
+  <input type='text' name="q" placeholder="Search"/>
+  <input type='submit' value="Search"/>
+  
+</form>
+	{% for user in users %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="{% url 'update_user' user.id %}">ID: {{ user.id }} Name: {{ user.name }} Surname: {{ user.surname }}</a>
+              
+  				{% for email in user.emails.all %}
+
+              <h6>Email:{{ email.email }}</h6>
+          {% endfor %}
+
+          {% for phone in user.phones.all %}
+          <h6>Phone:{{ phone.phone }} </h6>
+          {% endfor %}
+            </div>
+            
+          </div>
+		</article>
+
+  <form method="POST" action="{% url 'add_email_and_phone' user.id %}">
+    {% csrf_token %}
+              <input type="email" name="email" placeholder="Email">
+              <input type="label" name="phone" placeholder="Phone number">
+              <button type="submit">Add data</button>
+              </form>
+  <form method="POST" action="{% url 'delete_user' user.id %}">
+    {% csrf_token %}
+    <button type="submit">Delete user</button>
+    <p>
+  </form>
+
+{% endfor %}
+
+{% endblock content %}

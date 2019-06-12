@@ -1,0 +1,757 @@
+[
+{
+    "model": "app.person",
+    "pk": 25,
+    "fields": {
+        "name": "UpdatedName",
+        "surname": "ExampleSurname"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 26,
+    "fields": {
+        "name": "John",
+        "surname": "Nowak"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 27,
+    "fields": {
+        "name": "ThirdUser",
+        "surname": "ThirdSurname"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 28,
+    "fields": {
+        "name": "Adam",
+        "surname": "Kowalski"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 29,
+    "fields": {
+        "name": "ExampleUser",
+        "surname": "UserSurname"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 30,
+    "fields": {
+        "name": "Python",
+        "surname": "Django"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 31,
+    "fields": {
+        "name": "Java",
+        "surname": "Spring"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 32,
+    "fields": {
+        "name": "HTML",
+        "surname": "CSS"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 33,
+    "fields": {
+        "name": "Another",
+        "surname": "User"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 34,
+    "fields": {
+        "name": "Huge",
+        "surname": "Fixtures"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 35,
+    "fields": {
+        "name": "Iron",
+        "surname": "Man"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 36,
+    "fields": {
+        "name": "Black",
+        "surname": "Widow"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 37,
+    "fields": {
+        "name": "Captain",
+        "surname": "America"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 38,
+    "fields": {
+        "name": "Corvus",
+        "surname": "Glaive"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 39,
+    "fields": {
+        "name": "Proxima",
+        "surname": "Midnight"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 40,
+    "fields": {
+        "name": "Dead",
+        "surname": "Pool"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 41,
+    "fields": {
+        "name": "Captain",
+        "surname": "Marvel"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 42,
+    "fields": {
+        "name": "Iron",
+        "surname": "Patriot"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 43,
+    "fields": {
+        "name": "Nick",
+        "surname": "Fury"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 46,
+    "fields": {
+        "name": "Ghost",
+        "surname": "Rider"
+    }
+},
+{
+    "model": "app.person",
+    "pk": 47,
+    "fields": {
+        "name": "Spider",
+        "surname": "Man"
+    }
+},
+{
+    "model": "app.phone",
+    "pk": 10,
+    "fields": {
+        "person": 25,
+        "phone": "123456789"
+    }
+},
+{
+    "model": "app.phone",
+    "pk": 11,
+    "fields": {
+        "person": 25,
+        "phone": "741258963"
+    }
+},
+{
+    "model": "app.phone",
+    "pk": 12,
+    "fields": {
+        "person": 26,
+        "phone": ""
+    }
+},
+{
+    "model": "app.phone",
+    "pk": 13,
+    "fields": {
+        "person": 27,
+        "phone": "987456321"
+    }
+},
+{
+    "model": "app.phone",
+    "pk": 14,
+    "fields": {
+        "person": 30,
+        "phone": ""
+    }
+},
+{
+    "model": "app.phone",
+    "pk": 15,
+    "fields": {
+        "person": 31,
+        "phone": "159874632"
+    }
+},
+{
+    "model": "app.phone",
+    "pk": 16,
+    "fields": {
+        "person": 35,
+        "phone": "14986795"
+    }
+},
+{
+    "model": "app.phone",
+    "pk": 17,
+    "fields": {
+        "person": 41,
+        "phone": "789589674"
+    }
+},
+{
+    "model": "app.email",
+    "pk": 14,
+    "fields": {
+        "person": 25,
+        "email": "example@example.com"
+    }
+},
+{
+    "model": "app.email",
+    "pk": 15,
+    "fields": {
+        "person": 25,
+        "email": "secon@example.com"
+    }
+},
+{
+    "model": "app.email",
+    "pk": 16,
+    "fields": {
+        "person": 26,
+        "email": "john@nowak.com"
+    }
+},
+{
+    "model": "app.email",
+    "pk": 17,
+    "fields": {
+        "person": 27,
+        "email": "user@user.com"
+    }
+},
+{
+    "model": "app.email",
+    "pk": 18,
+    "fields": {
+        "person": 30,
+        "email": "python@django.com"
+    }
+},
+{
+    "model": "app.email",
+    "pk": 19,
+    "fields": {
+        "person": 31,
+        "email": "java@spring.com"
+    }
+},
+{
+    "model": "app.email",
+    "pk": 20,
+    "fields": {
+        "person": 35,
+        "email": "avengers@marvel.com"
+    }
+},
+{
+    "model": "app.email",
+    "pk": 21,
+    "fields": {
+        "person": 41,
+        "email": "marvel@marvel.com"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "app",
+        "model": "phone"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "app",
+        "model": "email"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "app",
+        "model": "person"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add person",
+        "content_type": [
+            "app",
+            "person"
+        ],
+        "codename": "add_person"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change person",
+        "content_type": [
+            "app",
+            "person"
+        ],
+        "codename": "change_person"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete person",
+        "content_type": [
+            "app",
+            "person"
+        ],
+        "codename": "delete_person"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view person",
+        "content_type": [
+            "app",
+            "person"
+        ],
+        "codename": "view_person"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add phone",
+        "content_type": [
+            "app",
+            "phone"
+        ],
+        "codename": "add_phone"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change phone",
+        "content_type": [
+            "app",
+            "phone"
+        ],
+        "codename": "change_phone"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete phone",
+        "content_type": [
+            "app",
+            "phone"
+        ],
+        "codename": "delete_phone"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view phone",
+        "content_type": [
+            "app",
+            "phone"
+        ],
+        "codename": "view_phone"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add email",
+        "content_type": [
+            "app",
+            "email"
+        ],
+        "codename": "add_email"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change email",
+        "content_type": [
+            "app",
+            "email"
+        ],
+        "codename": "change_email"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete email",
+        "content_type": [
+            "app",
+            "email"
+        ],
+        "codename": "delete_email"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view email",
+        "content_type": [
+            "app",
+            "email"
+        ],
+        "codename": "view_email"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+}
+]
