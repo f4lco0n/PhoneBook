@@ -9,7 +9,7 @@ Virtualenv:
 
 *mkdir project*
 
-*cd mkdir*
+*cd project*
 
 *virtualenv venv*
 
